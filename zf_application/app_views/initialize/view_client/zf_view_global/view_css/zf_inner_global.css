@@ -1,0 +1,113 @@
+/* 
+    Document   : inner_global
+    Created on : Sep 23, 2013, 5:33:31 PM
+    Author     : developer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.login{
+    font-family: Oswald-Light !important; font-size: 15px !important; line-height: 20px !important; font-weight: lighter; color:#333333 !important;
+}
+
+form input, form select{
+    font-family: Oswald-Light !important; font-size: 15px !important; line-height: 20px !important; font-weight: lighter; color:#333333 !important;
+}
+
+form a{
+    color: #0F719F !important;
+}
+
+form a:hover{
+    color: #0DA3E2 !important;
+}
+
+.login p{
+    font-family: Oswald-Light !important; font-size: 15px !important; line-height: 20px !important; font-weight: lighter; color:#0F719F !important;
+    letter-spacing: 0.05em !important;
+}
+
+.login h3{
+    font-family: Cuprum-Regular !important; font-size: 18px !important; line-height: 20px !important; font-weight: lighter; color:#ffffff !important;
+    letter-spacing: 0.05em !important; text-align: center !important;
+}
+
+.login h4{
+    font-family: Oswald-Light !important; font-size: 20px !important; line-height: 20px !important; font-weight: lighter; color:#ffffff !important;
+    letter-spacing: 0.05em !important;
+}
+
+.login .logo {
+    width: 25%; min-width: 220px !important;
+    margin: 0 auto; margin-top: 60px; padding: 15px; text-align: center;
+}
+
+.logo-title h3{
+    font-family: Cuprum-Regular, Oswald-Light !important; font-size: 25px !important; letter-spacing: 1px; font-weight: lighter; color: #0F719F !important;
+    text-shadow: none !important; margin-bottom: 0px !important; margin-left: 0px !important; text-align: center !important;
+}
+.logo-title h3>sup {
+    font-family: Cuprum-Regular, Oswald-Light !important; font-size: 15px !important; letter-spacing: 1px; font-weight: lighter; color: #0F719F !important;
+    text-shadow: none !important; margin-left: 1px !important; text-align: center !important; margin-top: 0px !important;
+}
+
+.control-group.error .help-inline {
+    color: #e9931c/*#b94a48*/; font-family: Cuprum-Regular !important; font-size: 15px !important; line-height: 20px !important; font-weight: lighter;
+
+}
+
+.login .content .form-control {
+    background-color: #FFFFFF !important; border: 1px solid #0DA3E2 !important;
+}
+
+.inner-headings h4{
+    font-family: Oswald-Light !important; font-size: 16px !important; line-height: 20px !important; font-weight: lighter; color:#ffffff !important;
+    letter-spacing: 0.05em !important;
+}
+
+hr.forgot-password {
+    padding: 0; background: none !important;
+    border: none;
+    /*border-top: solid 1px #0DA3E2;*/
+    border-top: solid 1px #0F6199;
+    color: #333;
+    text-align: center !important;
+}
+
+.copyright{
+    border: 0px solid #ff0000 !important; width: 94% !important; padding-left: 0px !important;
+}
+
+.footer-inner{
+    font-family: electrolize-regular, ProximaNova-Light !important; font-size: 11px !important; line-height: 15px !important; font-weight: lighter !important;
+    color:#0DA3E2 !important; letter-spacing: 0.05em !important; padding: 0 auto !important;
+}
+
+.footer-inner a{
+    font-style: italic !important; color: #0F6199 !important; font-size: 11px !important; font-weight: lighter !important;
+    letter-spacing: 1px; font-family: electrolize-regular;
+}
+
+.btn.blue {
+    background-color: #0F6199 !important;letter-spacing: 1px; border: 1px solid #0F719F !important;
+}
+
+.btn.blue:hover {
+    background-color: #0F719F !important; letter-spacing: 1px; 
+}
+
+.social-icons li {
+    border: solid 1px #0F5199 !important;
+}
+
+/**
+THIS IS THE CSS THAT STYLES ALL THE FORM ERRORS
+*/
+.server-side-error{
+    color: #7FC5EF !important; font-family: Ubuntu-L !important; font-size: 13px !important; padding-left:10px !important;
+    line-height: 20px !important; font-weight: lighter; margin-top: 2px !important; letter-spacing: 0.05em !important;   
+}
+
+ 
+
+
+

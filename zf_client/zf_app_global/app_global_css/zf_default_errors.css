@@ -1,0 +1,73 @@
+/* 
+    Document   : inner-default
+    Created on : Feb 3, 2014, 4:45:24 PM
+    Author     : developer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.construction-info{
+    font-family: Oswald-Light !important; font-size: 16px !important; letter-spacing: 1px; font-weight: lighter; color: #676767 !important;
+    text-shadow: none !important; margin-bottom: 0px !important; margin-left: 20px !important; text-align: center;
+}
+
+.construction-info h3{
+    font-family: Oswald-Light !important; font-size: 25px !important; letter-spacing: 1px; font-weight: lighter; color: #676767 !important;
+    text-shadow: none !important; margin-bottom: 0px !important; margin-left: 20px !important; text-align: center;
+}
+
+.default-errors{
+    text-align: center !important; padding: 10px auto !important; margin-top: 15% !important;
+}
+
+.default-errors-with-image{
+    text-align: center !important; padding: 10px auto !important; margin-top: 5% !important;
+}
+
+.error-image-wrapper{
+    width: 80%; margin: 0 auto !important;
+}
+
+.error-image-wrapper img{
+    width: 100% !important;
+}
+
+
+hr.error-hr {
+    padding: 0; background: none !important;
+    border: none;
+    border-top: solid 1px #979797;
+    color: #333;
+    text-align: center !important;
+}
+
+
+hr.error-hr:after {
+    content: "Contact iKrowd Development Team";
+    display: inline-block;
+    position: relative;
+    top: -1.2em;font-family: Oswald-Light; font-size: 15px !important;
+    padding: 0.25em 0.35em 0.30em 0.35em !important;
+    background: white; border: 1px solid #888888;
+    -webkit-border-radius: 5px !important; -moz-border-radius: 5px !important; border-radius: 5px !important;
+    -moz-box-shadow: 0px 0px 21px 1px #888888; -webkit-box-shadow: 0px 0px 21px 1px #888888; box-shadow: 0px 0px 21px 1px #888888;
+}
+
+
+/**
+THIS IS THE CSS THAT STYLES ALL THE FORM ERRORS
+*/
+.server-side-error{
+    color:  #B94A48 !important; font-family: Ubuntu-L !important; font-size: 12px !important;
+    line-height: 20px !important; font-weight: lighter;   
+}
+
+/*This is class that is necessary for the styling of all view errors*/
+.content-view-errors {
+    color: #B94A48 !important;
+    font-family: Ubuntu-L !important;
+    font-size: 14px !important;
+    font-weight: lighter;
+    line-height: 20px !important;
+}
+

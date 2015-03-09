@@ -1,0 +1,155 @@
+/* 
+    Document   : inner_global
+    Created on : Sep 23, 2013, 5:33:31 PM
+    Author     : developer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.profile-container{
+    border: 0px solid #ff0000; min-height: 300px !important;
+}
+
+/*This is the styler for school profile.*/
+.zvss-logo-wrapper {
+    border: 1px solid #DDDDDD; border-radius: 3px !important; box-shadow: 0 1px 3px #DDDDDD; min-height: 120px !important; width: 120px;
+    margin: 15px auto 10px auto !important; 
+    text-align: center !important; text-decoration: none !important; color: #2682B9 !important; font-size: 11px !important;
+}
+
+
+.zvss-logo-wrapper img{
+    width: 118px !important; height: 110px !important; padding: 3px !important; border-radius: 3px !important;
+}
+
+.school-content-wrapper{
+    border: 1px solid #DDDDDD; border-radius: 3px !important; box-shadow: 0 1px 5px #DDDDDD; min-height: 250px !important; width: 100%;
+    margin: auto; margin-left: 0% !important;
+}
+
+.performance-containers{
+   margin: auto; margin-left: -1% !important; min-height: 250px !important; width: 102%;
+}
+
+.school-content-wrapper h3{
+    font-family: Ubuntu-R !important; font-size: 12px !important; letter-spacing: 0.04em !important; text-align: left !important; color: #2682B9 !important;
+    margin: 5px !important;
+}
+
+.school-content-wrapper hr{
+    margin: 0 3px 0 3px !important;
+}
+
+
+/*This is the section that styles the inner contents of the content wrappers.*/
+.school-profile-inner-content{
+    font-family: ProximaNova-Light !important; font-size: 12px !important; letter-spacing: 0.05em !important; text-align: justify !important;
+    color: #656565 !important; margin: 0 3px 0 3px !important; padding: 5px !important;
+}
+
+.school-class-inner-content{
+    font-family: ProximaNova-Light !important; font-size: 12px !important; letter-spacing: 0.05em !important; text-align: justify !important;
+    color: #656565 !important; margin: 0 3px 0 3px !important; padding: 5px !important; max-height: 300px !important; height: 300px !important;
+    overflow: hidden; width: auto;
+}
+
+.school-subject-inner-content{
+    font-family: ProximaNova-Light !important; font-size: 12px !important; letter-spacing: 0.05em !important; text-align: justify !important;
+    color: #656565 !important; margin: 0 3px 0 3px !important; padding: 5px !important; max-height: 300px !important; height: 300px !important;
+    overflow: hidden; width: 100% !important;
+}
+
+
+.action_buttons{
+    border: 0px solid #ff0000; text-align:right !important; padding-right: 15px; padding-top: 1px !important;
+}
+
+
+
+//This styles the other components
+.inner-content-legends{
+    font-weight: bold; color: #333333; font-family: Arial,sans-serif; font-size: 11px !important;
+}
+
+
+
+hr.sponsors-hr {
+    padding: 0; background: none !important;
+    border: none;
+    border-top: solid 1px #dddddd;
+    color: #333;
+    text-align: center !important;
+}
+
+
+hr.sponsors-hr:after {
+    content: "Other Sponsors";
+    display: inline-block; position: relative;
+    top: -1.0em; font-family: Oswald-Light; font-size: 12px !important;
+    padding: 0.02em 0.20em 0.05em 0.20em !important;
+   
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff !important;-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff !important; 
+    box-shadow:inset 0px 1px 0px 0px #ffffff !important;
+    
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6)) !important;
+    background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%) !important; background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%) !important;
+    background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%) !important; background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%) !important;
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%) !important;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0) !important;
+    background-color:#ffffff; 
+    -webkit-border-radius: 5px !important; -moz-border-radius: 5px !important; border-radius: 5px !important;
+    border:1px solid #dcdcdc !important; display:inline-block !important; cursor:pointer !important;
+    letter-spacing: 0.04em !important; text-align: center !important;
+    color: #787878 !important; text-decoration:none !important; text-shadow:0px 1px 0px #ffffff !important;
+}
+
+.sponsors-bullet ol{
+   margin-left: -15px !important; margin-top: 5px !important; font-size: 12px !important; 
+}
+
+/*This is class that is necessary for the styling of all view errors*/
+.content-view-errors {
+    color: #B94A48 !important;
+    font-family: Ubuntu-L !important;
+    font-size: 14px !important;
+    font-weight: lighter;
+    line-height: 20px !important;
+}
+
+.content-table-flags{
+    color: indianred !important;
+}
+
+.content-table-flags-success{
+    color: #3c763d !important;
+}
+
+/*This is the styler for the departments sections*/
+.department-head-image-wrapper{
+    border: 1px solid #DDDDDD; border-radius: 3px !important; box-shadow: 0 1px 3px #DDDDDD; min-height: 100px !important; width: 100%;
+    text-align: center !important; text-decoration: none !important; color: #2682B9 !important; font-size: 11px !important;
+    margin-left: auto !important; margin-right: auto !important;
+}
+
+.department-head-image-wrapper img{
+    margin: auto !important;
+}
+
+.department-content-wrapper{
+    border: 1px solid #DDDDDD; border-radius: 3px !important; box-shadow: 0 1px 5px #DDDDDD; min-height: 100px !important; max-width: 98% !important;
+    margin: auto;
+}
+
+.department-content-wrapper h3{
+    font-family: Ubuntu-R !important; font-size: 12px !important; letter-spacing: 0.04em !important; text-align: left !important; color: #2682B9 !important;
+    margin: 5px !important;
+}
+
+.department-content-wrapper hr{
+    margin: 0 3px 0 3px !important;
+}
+
+.department-head-details{
+    
+}
+

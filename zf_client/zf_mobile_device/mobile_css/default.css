@@ -1,0 +1,16 @@
+/* 
+    Document   : default
+    Created on : Sep 23, 2013, 12:10:22 PM
+    Author     : developer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.zila-logo-name p{
+    font-family: Oswald-Light !important; font-size: 16px !important; letter-spacing: 1px; font-weight: lighter; color: #7fc5ef !important;
+    text-shadow: none !important; margin-bottom: 0px !important; margin-left: 8% !important;
+}
+
+/*This section styles the look and feel of the dashboard section*/
+
+
